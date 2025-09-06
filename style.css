@@ -1,0 +1,55 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-image: url("https://i0.wp.com/borutoexplorer.com.br/wp-content/uploads/2020/09/%F0%9D%90%A7%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%AE%F0%9D%90%AD%F0%9D%90%A8-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%A3%F0%9D%90%9E-%E2%98%BE-%E2%98%91-Kiedy-jest-pijany.jpg?resize=720%2C404&ssl=1"); 
+    background-size: cover; 
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.container { 
+    background: #0F4D0F; 
+    width: 60%; 
+    max-width: 800px;
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #ccc;
+    color: #fff;
+}
+
+h1, h2 { 
+    color: #00FF00; 
+}
+
+.botao, button { 
+    display: inline-block; 
+    margin-top: 15px; 
+    padding: 10px 15px; 
+    border: none; 
+    background: #008000; 
+    color: #fff; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.botao:hover, button:hover { 
+    background: #00b300; 
+}
+
+.feedback { 
+    margin-top: 15px; 
+    font-weight: bold; 
+}
+
+.opcao { 
+    display: block; 
+    margin: 8px 0; 
+}
